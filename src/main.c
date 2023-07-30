@@ -33,7 +33,7 @@ int main(void)
 		return 0;
 	}
 
-	config.frequency = 865100000;
+	config.frequency = 433000000;
 	config.bandwidth = BW_125_KHZ;
 	config.datarate = SF_10;
 	config.preamble_len = 8;
